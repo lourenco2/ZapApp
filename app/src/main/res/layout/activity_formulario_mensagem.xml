@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FormularioMensagem">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/inputTelefone"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/btnrounded2"
+        android:textColorHint="#ffff"
+        app:layout_constraintBottom_toTopOf="@+id/inputMensagem"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.52">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editaTelefone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btnrounded2"
+            android:hint="Telefone"
+            android:inputType="number"
+            android:textColorHint="#ffff" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/inputMensagem"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/btnrounded2"
+        android:textColorHint="#ffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputTelefone">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editaMensagem"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/btnrounded2"
+            android:hint="Mensagem"
+            android:singleLine="false"
+            android:textColorHint="#ffff" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <ImageButton
+        android:id="@+id/botaoEnviarMensagem"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="172dp"
+        android:layout_marginBottom="420dp"
+        android:background="@drawable/btnrounded"
+        android:src="@drawable/ic_enviar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputMensagem"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
