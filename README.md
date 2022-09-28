@@ -36,10 +36,10 @@ Este projeto feito em Java é um disparador de mensagens utilizando a Api de env
 
 | Cor               | Hexadecimal                                                |
 | ----------------- | ---------------------------------------------------------------- |
-| Cor Ação       | ![#25d366](https://via.placeholder.com/10/25d366?text=+) #25d366 |
-| Cor Cabeçalho 1      | ![#128c7e](https://via.placeholder.com/10/128c7e?text=+) #128c7e |
-| Cor Cabeçalho 2     | ![#075e54](https://via.placeholder.com/10/075e54?text=+) #075e54 |
-| Cor Fundo      | ![#FFF](https://via.placeholder.com/10/FFF?text=+) #FFF |
+| Cor Ação       | #25d366 |
+| Cor Cabeçalho 1      | #128c7e |
+| Cor Cabeçalho 2     | #075e54 |
+| Cor Fundo      | #FFF |
 
 
 
