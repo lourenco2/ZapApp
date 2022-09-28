@@ -20,7 +20,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.52">
+        app:layout_constraintVertical_bias="0.52"
+        app:boxStrokeWidth="0dp">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/editaTelefone"
@@ -42,7 +43,8 @@
         android:textColorHint="#ffff"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/inputTelefone">
+        app:layout_constraintTop_toBottomOf="@+id/inputTelefone"
+        app:boxStrokeWidth="0dp">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/editaMensagem"
@@ -51,7 +53,8 @@
             android:background="@drawable/btnrounded2"
             android:hint="Mensagem"
             android:singleLine="false"
-            android:textColorHint="#ffff" />
+            android:textColorHint="#ffff"
+            />
     </com.google.android.material.textfield.TextInputLayout>
 
     <ImageButton
