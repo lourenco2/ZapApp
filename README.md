@@ -1,6 +1,6 @@
 
 # ZapApp
-
+![Concluído]
 Projeto destinado a disciplina de Desenvolvimento Mobile da Universidade Positivo. 
 
 Este projeto feito em Java é um disparador de mensagens utilizando a Api de envio direto.
